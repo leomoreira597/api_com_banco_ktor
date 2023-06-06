@@ -6,5 +6,6 @@ import org.jetbrains.exposed.sql.transactions.transaction
 fun createTables(){
     transaction {
         SchemaUtils.create(Users)
+        SchemaUtils.create(Purchase)
     }
 }

@@ -11,6 +11,7 @@ object Users : IntIdTable(){
 
     fun toUser(row: ResultRow): User{
         return User(
+            id = row[id].value,
             name = row[name],
             age = row[age]
         )

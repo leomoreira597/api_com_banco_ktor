@@ -23,7 +23,7 @@ fun Application.module() {
     val url = "jdbc:mysql://localhost:3306/"
     val driver = "com.mysql.cj.jdbc.Driver"
     val user = "root"
-    val password = ""
+    val password = "fs1lm3gl5tt"
     val databaseName = "primeiroktor"
     configureSerialization()
     configureRouting()
